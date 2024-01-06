@@ -1,0 +1,51 @@
+:root {
+    --black-50: #f7f7f7;
+    --black-100: #e3e3e3;
+    --black-200: #c8c8c8;
+    --black-300: #a4a4a4;
+    --black-400: #818181;
+    --black-500: #666666;
+    --black-600: #515151;
+    --black-700: #434343;
+    --black-800: #383838;
+    --black-900: #313131;
+    --black-950: #000000; 
+
+    --dark: var(--black-900);
+    --light: var(--black-100);
+
+    --dark-font: var(--black-100);
+    --light-font: var(--black-900);
+
+
+    --yellow: #EE982B;
+}
+
+/*Dark mode*/
+body {
+    background: var(--dark);
+    color: var(--dark-font);
+
+    --background: var(--dark);
+    --color: var(--dark-font);
+    --div-backround: var(--black-700);
+
+    --emph: #5E5BE1;
+    --emph: #FFB7CE;
+}
+  
+/*Light mode*/
+.light-mode {    
+    background: var(--light);
+    color: var(--light-font);
+
+    --background: var(--light);
+    --color: var(--light-font);
+    --div-backround: var(--black-200);
+
+    --emph: rgba(173,0,255,1);
+    --emph: red;
+    --emph: #0000B2;
+
+
+}

@@ -1,0 +1,39 @@
+.dark-mode-toggle {
+    display: flex;
+    gap: 4px;
+    user-select: none;
+
+    position: absolute;
+    top: 16px;
+    right: 32px;
+}
+
+.dark-mode-toggle button {
+    all: unset;
+    transition: all .2s linear;
+}
+
+.dark-mode-toggle button:hover {
+    cursor: pointer;
+    color: var(--emph);
+}
+
+#light-mode-button::after, #dark-mode-button::after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 0px;
+    width: 0px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid var(--emph);
+    transition: width .5s ease, background-color .5s ease;
+}
+
+#light-mode-button.active, #dark-mode-button.active {
+    color: var(--emph);
+}
+
+#light-mode-button.active::after,
+#dark-mode-button.active::after {
+    width: 100%;
+}
