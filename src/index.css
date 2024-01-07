@@ -17,6 +17,8 @@ body {
 h1 {
   all: unset;
   font-size: 20px;
+
+  color: var(--emph);
 }
 
 section {

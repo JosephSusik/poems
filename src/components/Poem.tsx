@@ -1,8 +1,9 @@
 function Poem() {
     return(
         <div className='poem'>
-            <h1>Milenka Lenka</h1>
+            <h1>Hladce obrace</h1>
             <br /> <br />
+            <p>Sedím v křešle a hledím zklesle.</p>
             <p>V ruce mám příze a v hlavě vize co nenajdeš v ledajaké knize.</p>
             <p>Mám vybrat... červenou či modrou, mám hrát zlou či dobrou?</p>
             <p>Těžko říci.</p>
